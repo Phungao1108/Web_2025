@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.mainNav {
+    align-items: center; 
+    justify-content: space-between; 
+    display: flex;
+}
+
+.container {
+    padding: 20px;
+}
+
+.navRight {
+    list-style: none;
+    display: flex;
+}
+
+.navRight li {
+    margin-right: 10px;
+}
+
+.navRight li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    background-image: url(../img/Hinh_de_01/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+}
+
+.hhh {
+    margin-left: 230px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h4 {
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 2px;
+}
+
+.hhh h4 {
+    color: white;
+    font-size: 25px;
+}
+
+.content_1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.content_1 .content_1_img img {
+    width: 500px;
+    margin-right: 25px;
+}
+
+.content_1 .content_1_content {
+    width: 700px;
+}
+
+.content_1 .content_1_content .info-us {
+    border-left: 3px solid #7db532;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.content_1 .content_1_content .description {
+    margin-bottom: 20px;
+}
+
+.content_1 .content_1_content .info-us h5 {
+    color: #7db532;
+}
+
+.content_1 .content_1_content .form-container {
+    padding-bottom: 20px;
+    background-color: #f3f3f3;
+    padding-left: 30px;
+}
+
+select {
+    width: 100%;
+}
+
+
+.content-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.content-2 .left, .content-2 .right {
+    display: flex;
+    width: 615px;
+    height: 100px;
+    background-color: #f3f3f3;
+}
+
+.content-2 .text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-2 h4 {
+    margin-bottom: 10px;
+}
+
+.foot {
+    background-color: #f3f3f3;
+    margin-top: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+.foot-content {
+    margin-left: 350px;
+    font-size: 20px;
+}
+
+ .foot-content .line {
+    width: 100px;
+    border-bottom: 3px solid black;
+    display: inline-block;
+}
+

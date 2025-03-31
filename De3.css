@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 7px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/Hinh_de_03/insertion-header.jpg);
+    width: 100%;
+    height: 170px;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1,
+.logo h3 {
+    color: #b43232;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.menu .linkMenu {
+    margin-right: 600px;
+}
+
+.menu .linkMenu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu .linkMenu ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid #b43232;
+    height: 35px;
+    width: 100px;
+}
+
+.menu .linkMenu ul li a {
+    text-decoration: none;
+    color: #b43232;
+}
+
+.menu .linkMenu ul .active {
+    background-color: #b43232;
+}
+
+.menu .linkMenu ul li .HOME {
+    color: white;
+}
+
+.menu .formMenu button {
+    width: 30px;
+}
+
+.sect {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.sect .content {
+    margin-right: 20px;
+    width: 800px;
+    margin-top: 35px;
+}
+
+.sect .content .img .imgTable {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.sect .content .img .imgTable tr td{
+    text-align: center;
+}
+
+.sect .content .contentMain h3,
+.sect .content .contentMain p  {
+    color: #b43232;
+}
+
+.sect .Nav {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.sect .Nav .donations,
+.sect .Nav .user {
+    display: flex;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.sect .Nav .as {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px ;
+}
+
+.sect .Nav h3 {
+    margin-top: 10px;
+}
+
+.sect .Nav img {
+    border-radius: 20px;
+}
+
+.sect .Nav .sub { 
+    height: 200px;
+}
+
+.foot {
+    background-image: url(../img/Hinh_de_03/insertion-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.foot h3 {
+    color: #b43232;
+}
+
+
